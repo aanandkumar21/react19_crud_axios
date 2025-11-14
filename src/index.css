@@ -1,0 +1,104 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+ body {
+     background-color: #171F29;
+     color: #fff;
+     font-family: 'roboto', sans-serif, arial, open sans;
+ }
+
+ .sectionBody {
+     padding: 15px 5%;
+
+     & ol {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         /* list-style: none; */
+         gap: 15px;
+         margin: 0;
+         padding: 0;
+
+         & li {
+             background-color: #21303C;
+             padding: 15px;
+             border-left: solid 1px #fff;
+             list-style-position: inside;
+             & h2 {
+                 font-size: 18px;
+                 font-weight: 500;
+             }
+             & p {
+                 font-size: 16px;
+                 font-weight: 300;
+                 color: #d1d1d1;
+             }
+         }
+     }
+ }
+
+
+
+ .card .card .card .btnWp {
+     display: flex;
+ }
+
+ button {
+    background-color: #1BDA9B;
+     padding: 8px 15px;
+     border-radius: 5px;
+     border: 0;
+     cursor: pointer;
+ }
+button.btnDel {
+     background-color: #E84C3C;
+     color: black;
+     margin-left: 10px;
+ }
+ button:hover{
+    opacity: 0.8;
+ }
+
+
+ /* form css */
+
+ .formSec{
+    padding: 15px 5%;
+ }
+
+ .formSec form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+ }
+
+.formSec .formGroup {
+    margin-bottom: 15px;
+}
+.formSec .formGroup label {
+    font-weight: 600;
+    margin-bottom: .5rem;
+    display: inline-block;  
+}
+.formSec .formGroup input{
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    /* height: 36px; */
+}
+
+form button {
+    height: 38px;
+}
+
+
+
